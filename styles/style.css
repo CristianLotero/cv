@@ -1,0 +1,76 @@
+#cuadro {
+  box-sizing: border-box;
+  width: 95vw;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#cv {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+#datoPer {
+  padding-left: 2em;
+  background-color: rgb(62, 124, 240);
+  color: white;
+  font-family:'Times New Roman', Times, serif;
+  border-radius: 7px;
+  box-shadow: 0 0 0.75em black;
+}
+
+#datoPer img {
+  display: block;
+  margin-top: 2em;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  max-width: 200px;
+}
+
+#datoPer h3 {
+  border-bottom: 2px white solid ;
+}
+
+a {
+  color: rgb(60, 63, 63);
+}
+
+a:hover {
+  color: crimson;
+}
+
+#datoPer span {
+  padding-right: 4em;
+  float: right;
+}
+
+#exper h1{
+  border-bottom: 2px rgb(62, 124, 240) solid;
+  padding-left: 2em;
+  font-size: 3em;
+}
+
+#exper h2{
+  border-bottom: 2px rgb(62, 124, 240) solid;
+  padding-left: 2em;
+}
+
+#exper p {
+  padding-left: 2em;
+}
+
+.fecha {
+  float: right;
+}
+
+.cargo {
+  border-bottom: 2px rgb(62, 124, 240) solid;
+  padding-left: 2em;
+}
+
+.edu {
+  padding-left: 2em;
+}
+
