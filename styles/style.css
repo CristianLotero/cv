@@ -8,7 +8,7 @@
 
 #cv {
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 2fr 5fr;
 }
 
 #datoPer {
@@ -20,11 +20,13 @@
   box-shadow: 0 0 0.75em black;
 }
 
+
 #datoPer img {
   display: block;
   margin-top: 2em;
   margin-left: auto;
   margin-right: auto;
+  padding: 2em;
   border-radius: 50%;
   max-width: 200px;
 }
