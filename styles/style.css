@@ -12,7 +12,7 @@
 }
 
 #datoPer {
-  padding-left: 2em;
+  /*padding-left: 2em;*/
   background-color: rgb(62, 124, 240);
   color: white;
   font-family:'Times New Roman', Times, serif;
@@ -20,6 +20,9 @@
   box-shadow: 0 0 0.75em black;
 }
 
+.pers {
+  padding-left: 2em;
+ }
 
 #datoPer img {
   display: block;
