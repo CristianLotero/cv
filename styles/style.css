@@ -15,7 +15,8 @@
   /*padding-left: 2em;*/
   background-color: rgb(62, 124, 240);
   color: white;
-  font-family:'Times New Roman', Times, serif;
+  font-family:'Lucida Sans';
+  font-size: 1.2em;
   border-radius: 7px;
   box-shadow: 0 0 0.75em black;
 }
@@ -36,6 +37,7 @@
 
 #datoPer h3 {
   border-bottom: 2px white solid ;
+  font-size: 2em;
 }
 
 a {
@@ -60,22 +62,27 @@ a:hover {
 #exper h2{
   border-bottom: 2px rgb(62, 124, 240) solid;
   padding-left: 2em;
+  text-transform: uppercase;
+  font-family: Helvetica;
+  font-size: 2em;
 }
 
 #exper p {
   padding-left: 2em;
+  font-family: Cambria;
 }
 
 .fecha {
   float: right;
+  font-size: 1.3em;
 }
 
 .cargo {
   border-bottom: 2px rgb(62, 124, 240) solid;
   padding-left: 2em;
+  font-size: 2em;
 }
 
-.edu {
-  padding-left: 2em;
+.marca {
+  font-size: 1.5em;
 }
-
